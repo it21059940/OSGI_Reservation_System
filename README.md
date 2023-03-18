@@ -11,6 +11,9 @@ Since in these types of situations a customer only uses one service at a time, w
 Why use a microkernel approach over a monolithic architecture?
 
 There are so many reasons why we thought of OSGI (microkernel) would be a best approach for a centralized service reservation system.
+
 •	Extensibility -  since all the services are implemented separately and they are loosely coupled it is extremely easy for us to add new services or modify existing services without changing the entire system. For e.g.- Lemon holdings decide to new sector as Lemon Clothing. We can easily add the required services as a new bundle without having to change the core system.
+
 •	Security – Since services are implemented as separate components, there was much protection between the components and there fore much less vulnerable to attacks (attackers will find it harder to attack the entire system).
+
 •	Reliable and Portable – Microkernel architecture provides great reliability and portability too.
