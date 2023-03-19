@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: HotelReservationServiceConsumer
+Bundle-SymbolicName: HotelReservationServiceConsumer
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: hotelreservationserviceconsumer.Activator
+Bundle-RequiredExecutionEnvironment: JavaSE-17
+Import-Package: eventreservationserviceproducer,
+ mainhotelreservationproducer,
+ org.osgi.framework;version="1.3.0",
+ roomreservationserviceproducer
+

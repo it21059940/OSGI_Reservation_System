@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: CateringServiceProducer
+Bundle-SymbolicName: CateringServiceProducer
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: cateringserviceproducer.Activator
+Export-Package: cateringserviceproducer
+Import-Package: cateringserviceproducer,
+ org.osgi.framework;version="1.3.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-17
